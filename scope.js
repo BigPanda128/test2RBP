@@ -1,7 +1,7 @@
 /*Ryan POstma
  * CMP237
  * exam 2
- * scope.js problem 1
+ * scope.js problem 0
  */
 
 //two global varialbes

@@ -6,7 +6,7 @@
 //infintie loop that stops
 for(var i = 0;;i++) {
 	print(i);
-	if (i == 5684){
+	if (i == 5684){//random number scinario that i came up with to stop at
 		break;
 	}
 }

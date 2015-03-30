@@ -7,15 +7,15 @@
 
 //module to do iseven and over ten
 (function(num) {
-	var trueFalse = ["is even", "is odd", "is over ten", "is ten or under"];
+	var trueFalse = ["is even", "is odd", "is over ten", "is ten or under"];//options of what to print
 	num.isEven = function(number) {
-		if(number%2 == 0) {
+		if(number%2 == 0) {//check if even
 			return trueFalse[0];
 		}
 		return trueFalse[1];
 	};
 	num.overTen = function(number) {
-		if(number > 10){
+		if(number > 10){//check if over 10
 			return trueFalse[2];
 		}
 		return trueFalse[3];
